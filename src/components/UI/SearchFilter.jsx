@@ -25,7 +25,7 @@ const SearchFilter = ({search, setSearch, filter, setFilter, countries, setCount
   return (
     <section className='section-searchFilter container'>
         <div>
-            <input 
+            <input style={{borderRadius: "15px", padding:"10px"}}
              type="text" placeholder='search' 
              value={search}
              onChange={handleInputChange}
