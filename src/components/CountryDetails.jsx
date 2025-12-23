@@ -41,10 +41,6 @@ const CountryDetails = () => {
                         <span className='card-description'>Population:</span>
                         {country.population.toLocaleString()}
                     </p>
-                    <p>
-                  <span className="card-description"> Population: </span>
-                  {country.population.toLocaleString()}
-                </p>
                 <p>
                   <span className="card-description"> Region:</span>
                   {country.region}
